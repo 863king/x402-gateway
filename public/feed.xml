@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>x402 API Gateway</title>
+    <link>http://43.134.241.191:3456/</link>
+    <description>AI Agent payment API service using x402 protocol</description>
+    <language>en-us</language>
+    <item>
+      <title>x402 API Gateway Launch</title>
+      <link>http://43.134.241.191:3456/</link>
+      <description>Weather, Crypto, Exchange Rates, News APIs with x402 payment</description>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
