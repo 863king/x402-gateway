@@ -303,7 +303,7 @@ app.get('/api/weather', async (req, res) => {
     try {
         const city = req.query.city || 'Shanghai';
         const response = await axios.get(`https://wttr.in/${city}?format=j1`, { timeout: 10000 });
-        const data = response.data;
+        const data = response.data.data;  // wttr.in 返回的数据在 data 字段里
         
         res.json({
             success: true,
